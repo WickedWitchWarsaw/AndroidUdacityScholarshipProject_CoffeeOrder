@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wickedwitchwarsaw.udacityscholarshipcoffeeorder.OrderConfirmation">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/coffee_confirmation_screen" />
+
+    <TextView
+        android:id="@+id/customerNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Thank You!! :)"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/coffee_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customerNameText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="coffee amount"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/whipped_cream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coffee_amount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="whipped cream"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/chocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/whipped_cream"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="chocolate"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/sugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chocolate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="sugar"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+
+
+    <TextView
+        android:id="@+id/coffee_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_send"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="coffee price"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND ORDER"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

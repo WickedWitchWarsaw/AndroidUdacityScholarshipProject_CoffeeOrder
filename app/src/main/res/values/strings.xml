@@ -1,0 +1,10 @@
+<resources>
+    <!-- XML -->
+    <string name="app_name">UdacityScholarshipCoffeeOrder</string>
+    <string name="order_btn">ORDER</string>
+    <string name="quantity_text">QUANTITY</string>
+
+
+    <!-- JAVA -->
+    <string name="alert_text">You cannot select a negative number, pls select more...</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UdacityScholarshipCoffeeOrder</string>
+    <string name="alert_text">Nie możesz wybrać ujemnej ilości, prosze zmienić ilość.</string>
+    <string name="order_btn">ZAMÓW</string>
+    <string name="quantity_text">ILOŚĆ</string>
+</resources>
